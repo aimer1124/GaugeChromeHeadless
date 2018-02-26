@@ -17,6 +17,7 @@ Use [Gauge](https://gauge.org/index.html) with local headless chrome.
     - Check first result
 
 - Tech
+    - ChromeDriver version `2.35.528157`
     - Use Chrome headless with `ChromeOptions`
     - Use local Chrome Driver with **System.setProperty("webdriver.chrome.driver", "BrowserDriver/chromedriver");**
     - Use `DriverFactory` and `Driver` to manage all Driver behave
