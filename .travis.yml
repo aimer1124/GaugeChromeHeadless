@@ -7,7 +7,7 @@ before_install:
   - git config --global user.name "aimer1124"
   - git config --global user.email "380774061@qq.com"
 Script:
-  - ./gradlew clean gauge
+  - gradle clean gauge
 
 branches:
   only:
