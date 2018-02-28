@@ -21,6 +21,12 @@ Use [Gauge](https://gauge.org/index.html) with local headless chrome.
     - Use Chrome headless with `ChromeOptions`
     - Use local Chrome Driver with **System.setProperty("webdriver.chrome.driver", "BrowserDriver/chromedriver");**
     - Use `DriverFactory` and `Driver` to manage all Driver behave
+- CI - Agent Prepare
+    - Install Java
+    - Install Gauge
+    - Install Gauge Java Plugin
+    - Install Chrome
+
 
 ## Tips
 
