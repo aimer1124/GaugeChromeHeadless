@@ -22,5 +22,14 @@ Use [Gauge](https://gauge.org/index.html) with local headless chrome.
     - Use local Chrome Driver with **System.setProperty("webdriver.chrome.driver", "BrowserDriver/chromedriver");**
     - Use `DriverFactory` and `Driver` to manage all Driver behave
 
+## Tips
+
+If you want to use this in CI, eg.Jenkins. Please make sure
+- CI User is not `root` user
+- or set `ChromeOptions` argument `--no-sandbox`
+
+Otherwise, your test can't run in CI well.
+
+
 
 
