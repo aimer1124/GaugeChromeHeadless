@@ -7,7 +7,7 @@ Use [Gauge](https://gauge.org/index.html) with local headless chrome.
 - Command line
 
 ```
-./gradlew gauge
+./gradlew clean gauge
 ```
 
 - Test Scenario

@@ -26,7 +26,7 @@ public class homePage {
         WebDriver webDriver = Driver.webDriver;
 
         //Get the content of the first result
-        String urlContent = webDriver.findElement(By.id("content_left")).findElement(By.id("1")).findElement(By.className("favurl")).getText();
+        String urlContent = webDriver.findElement(By.id("content_left")).findElement(By.id("1")).findElement(By.className("t")).getText();
 
         assertTrue(urlContent.contains("123"));
 
