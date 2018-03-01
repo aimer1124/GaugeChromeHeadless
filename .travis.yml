@@ -16,6 +16,7 @@ before_install:
   - git config --global push.default matching
   - git config --global user.name "aimer1124"
   - git config --global user.email "380774061@qq.com"
+  - chmod a+x gradlew
 
 script:
   - ./gradlew clean gauge
