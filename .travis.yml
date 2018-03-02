@@ -10,10 +10,10 @@ addons:
 branches:
   only:
   - master
-#
-#cache:
-#  directories:
-#  - $HOME/.gradle
+
+cache:
+  directories:
+  - $HOME/.gradle
 
 before_install:
   - git config --global push.default matching
