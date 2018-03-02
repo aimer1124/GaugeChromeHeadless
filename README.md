@@ -30,11 +30,9 @@ Use [Gauge](https://gauge.org/index.html) with local headless chrome.
 
 ## Tips
 
-If you want to use this in CI, eg.Jenkins. Please make sure
-- CI User is not `root` user
-- or set `ChromeOptions` argument `--no-sandbox`
+- ChromeDriver is for linux,If you want to run in other OS,please replace chromedriver in `BrowserDriver` folder.
+- If you want to use this in CI, eg.Jenkins. Please make sure: CI User is not `root` user
 
-Otherwise, your test can't run in CI well.
 
 
 
