@@ -24,7 +24,8 @@ before_install:
   - echo deb https://dl.bintray.com/gauge/gauge-deb stable main | sudo tee -a /etc/apt/sources.list
   - sudo apt-get update
   - sudo apt-get install gauge
+  - gauge install java
   - gauge install html-report
 
 script:
-  - ./gradlew -x assemble clean gauge
+  - ./gradlew clean gauge
