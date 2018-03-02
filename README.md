@@ -1,4 +1,4 @@
-# GaugeChromeHeadless
+# GaugeChromeHeadless[![Build Status](https://travis-ci.org/aimer1124/GaugeChromeHeadless.svg?branch=master)](https://travis-ci.org/aimer1124/GaugeChromeHeadless)
 
 Use [Gauge](https://gauge.org/index.html) with local headless chrome.
 
