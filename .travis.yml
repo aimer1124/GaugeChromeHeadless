@@ -6,6 +6,7 @@ jdk:
 addons:
   chrome: stable
 
+
 branches:
   only:
   - master
@@ -19,6 +20,8 @@ before_install:
   - git config --global user.name "aimer1124"
   - git config --global user.email "380774061@qq.com"
   - chmod a+x gradlew
+  - brew install gauge
+  - gauge install java
 
 script:
   - ./gradlew -x assemble clean gauge
