@@ -20,8 +20,11 @@ before_install:
   - git config --global user.name "aimer1124"
   - git config --global user.email "380774061@qq.com"
   - chmod a+x gradlew
-  - brew install gauge
-  - gauge install java
+  - sudo apt-key adv --keyserver hkp://pool.sks-keyservers.net --recv-keys 023EDB0B
+  - echo deb https://dl.bintray.com/gauge/gauge-deb stable main | sudo tee -a /etc/apt/sources.list
+  - sudo apt-get update
+  - sudo apt-get install gauge
+  - gauge install html-report
 
 script:
   - ./gradlew -x assemble clean gauge
