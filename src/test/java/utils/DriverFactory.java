@@ -15,7 +15,7 @@ public class DriverFactory {
         System.setProperty("webdriver.chrome.driver", "BrowserDriver/chromedriver");
         ChromeOptions options = new ChromeOptions();
 
-//        options.addArguments("--headless");
+        options.addArguments("--headless");
         options.addArguments("--disable-gpu");
         options.addArguments("--no-sandbox");
         return new ChromeDriver(options);
