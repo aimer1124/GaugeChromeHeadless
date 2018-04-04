@@ -27,10 +27,16 @@ Use [Gauge](https://gauge.org/index.html) with local headless chrome.
     - Install Gauge Java Plugin
     - Install Chrome
 
-
 ## Tips
 
 - ChromeDriver is for linux,If you want to run in other OS,please replace chromedriver in `BrowserDriver` folder.
+- If you want to run the special spec, chage `build.gauge` like this.
+
+```
+gauge {
+    specsDir = 'specs'
+}
+```
 - If you want to use this in CI, eg.Jenkins. Please make sure: CI User is not `root` user
 
 
