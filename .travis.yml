@@ -24,4 +24,4 @@ before_install:
   - gauge install html-report
 
 script:
-  - ./gradlew clean gauge
+  - ./gradlew clean gauge --info
